@@ -1,0 +1,22 @@
+# --------------------------------------
+# DivineMarkets API - .env Configuration
+# --------------------------------------
+
+# Uvicorn/Server settings
+PORT=8000
+
+# Security and API Keys
+SECRET_KEY=your-secret-key-here
+CLERK_API_KEY=your-clerk-api-key-here
+STRIPE_SECRET_KEY=your-stripe-secret-key-here
+ALPHA_VANTAGE_API_KEY=your-alpha-vantage-api-key
+
+# Notification Services
+TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+TELEGRAM_CHAT_ID=your-chat-id
+
+# Other service URLs
+FRONTEND_URL=https://divinemarkets.org
+
+# Debug Mode (True/False)
+DEBUG=True
